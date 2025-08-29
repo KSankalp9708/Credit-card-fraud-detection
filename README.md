@@ -5,7 +5,7 @@
 ---
 
 # Objective
-- To build a machine learning model for **detecting fraudulent credit card transactions** using the Kaggle dataset.
+- To build a machine learning model for **detecting fraudulent credit card transactions** using the Kaggle dataset
 ---
 # Approach
 - Imported and preprocessed the dataset using **pandas** and **numpy**.  
@@ -18,3 +18,6 @@
 - Achieved ~94.5% accuracy in detecting fraud despite the highly imbalanced dataset.  
 - Demonstrated the effectiveness of logistic regression for binary classification in financial fraud detection.  
 ---
+#Dataset
+- The dataset is available on Kaggle:
+- [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)

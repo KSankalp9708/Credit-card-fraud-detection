@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/Ksankalp9708/Credit-card-fraud-detection/blob/main/Credit_card_fraud_detection.ipynb])
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([Credit_card_fraud_detection.ipynb])
 
 ---
 ## Objective

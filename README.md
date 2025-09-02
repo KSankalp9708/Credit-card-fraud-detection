@@ -1,10 +1,8 @@
 # Credit Card Fraud Detection
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1raalIQ7fq2vQrEcvXABxzR6SQBjYeF7Y?usp=sharing)
-
 ---
 ## Objective
-- To build and compare multiple machine learning models for **detecting fraudulent credit card transactions** using the Kaggle dataset
+- To build and compare multiple machine learning models for **detecting fraudulent credit card transactions** using the **Kaggle** dataset
 
 ---
 ## Approach
@@ -18,24 +16,27 @@
     - Random Forest
   - Tuned basic hyperparameters (max_depth, n_estimators, random_state, max_iter) for each model
 - Evaluation:
-  - Compared performance across models through accuracy evaluation *(see Results table)*
+  - Compared performance across models through **accuracy, F1-score, precision, and recall** evaluation *(see Results table)*
   
 ---
 ## Results
-| Model               | Accuracy (%) |
-| ------------------- | ------------ |
-| Logistic Regression | **93.40**    |
-| Decision Tree       | 91.88        |
-| Random Forest       | 92.89        |
+### Results  
+
+| Model                | Accuracy (%) | F1 Score (%) | Precision (%) | Recall (%) |
+|----------------------|-------------|-------------|--------------|-----------|
+| **Logistic Regression**  | **94.42**       | **94.12**       | **98.88**        | 89.80     |
+| Decision Tree        | 89.85       | 89.47       | 92.39        | 86.73     |
+| Random Forest        | 92.89       | 92.47       | 97.73        | 87.76     |
+
 
 **Key Observations**
-- Logistic Regression achieved the **highest accuracy (93.4%)** and serves as a simple yet effective baseline.
-- Ensemble methods (Random Forest) performed competitively but with slightly *lower accuracy* on this balanced subset.
-- Decision Tree offers interpretability, though slightly *less accurate*.
+- Logistic Regression achieved the *highest accuracy* **(94.4%)** and *strong precision–recall balance*, serving as a simple yet effective baseline.
+- Random Forest performed competitively with *high precision* but slightly *lower recall*.
+- Decision Tree offers interpretability, though with comparatively *lower metrics*.
 
 ---
 ## Conclusion
-- This project demonstrates the use of multiple classification algorithms for binary fraud detection. Despite the dataset’s high original imbalance, resampling enabled fair model comparison. Logistic Regression stands out as a strong baseline for this dataset.
+- This project demonstrates the use of multiple classification algorithms for binary fraud detection. Despite the dataset’s high original imbalance, resampling enabled fair model comparison. Logistic Regression stands out as a strong and efficient baseline for this dataset.
 ---
 ## Dataset
 - The dataset is available on Kaggle:
